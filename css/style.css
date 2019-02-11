@@ -1,0 +1,399 @@
+body {
+  background-color: hsl(214, 64%, 98%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  line-height: 2;
+}
+
+a {
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+}
+
+.top-right {
+  background: hsl(214, 64%, 98%);
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  color: hsl(265, 100%, 66%);
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  width: 150px;
+  padding: 10px 8px;
+}
+
+.heading-section {
+  position: relative;
+}
+
+.intro {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.rect-wrapper1 {
+  position: absolute;
+  z-index: -1;
+}
+
+.pink-rect {
+  transform: translateX(30%) rotate(-40deg)
+}
+
+.rect-wrapper2 {
+  position: absolute;
+  z-index: -2;
+}
+
+.white-rect {
+  transform: translateX(-3%) translateY(52%) rotate(-35deg);
+}
+
+.layout-img {
+  height: 28em;
+  left: 28%;
+  position: absolute;
+  top: 20%;
+  width: 38em;
+}
+
+.subTitle {
+  text-align: center;
+  width: 35%;
+  margin: -60px auto 0;
+}
+
+.subTitle-heading {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.subTitle-description {
+  font-size: 15px;
+  color: grey;
+}
+
+.subTitle-link {
+  background: hsl(322, 100%, 66%);
+  color: white;
+  margin-top: 5px;
+  padding: 15px 30px;
+  font-size: 12px;
+}
+
+.advantages {
+  height: 85vh;
+  width: 100vw;
+  margin-top: 24em;
+}
+
+.group-img {
+  text-align: center;
+  float: left;
+  margin-left: 80px;
+  height: 400px;
+  width: 450px;
+}
+
+.points-frame {
+  float: right;
+  width: 50%
+}
+
+.points {
+  font-size: 15px;
+}
+
+.parar {
+  color: grey;
+  font-size: 13px;
+  width: 65%;
+}
+
+.conclusion {
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  line-height: 1;
+  background: white;
+  text-align: center;
+  height: 50vh;
+  width: 50%;
+  margin: 15px auto;
+}
+
+.conclusion h2 {
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.conclusion p {
+  font-size: 13px;
+  color: grey;
+}
+
+.conclusion a {
+  background: hsl(322, 100%, 66%);
+  margin-top: 15px;
+  padding: 15px 30px;
+  font-size: 10px;
+}
+
+footer {
+  position: relative;
+  margin-top: 10em;
+  color: white;
+  background: hsl(192, 100%, 9%);
+  width: 100vw;
+  height: 70vh;
+  font-size: 12px;
+}
+
+.first-section {
+  padding: 80px 0 50px 80px;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter {
+  color: white;
+  font-size: 30px;
+}
+
+.social-media a {
+  padding: 15px 30px 15px 0;
+}
+
+.second-section {
+  position: absolute;
+  top: 80px;
+  left: 425px;
+}
+
+.background a {
+  padding: 10px;
+  font-size: 1em;
+}
+
+.third-section {
+  position: absolute;
+  top: 80px;
+  left: 700px;
+}
+
+.prospect a {
+  padding: 10px;
+  font-size: 1em;
+}
+
+.fourth-section {
+  width: 20%;
+  position: absolute;
+  top: 80px;
+  left: 1000px;
+}
+
+.fourth-section input {
+  height: 2.5em;
+  border: none;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.subs-button {
+  margin-top: 20px;
+  margin-left: 53%;
+  padding: 5px;
+  width: 45%;
+  background: hsl(322, 100%, 66%);
+}
+
+/* Phone mode */
+@media screen and (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .logo {
+    position: absolute;
+    width: 8em;
+    top: 1.8em;
+    left: 5px;
+  }
+
+  .layout-img {
+    top: 15%;
+    height: 12em;
+    width: 14em;
+    left: 6em;
+  }
+
+  .top-right {
+    top: 30px;
+    right: -3em;
+    width: 100px;
+    padding: 2px;
+  }
+
+  .pink-rect {
+    transform: translateX(30%) rotate(-35deg)
+  }
+
+  .white-rect {
+    transform: translateX(75%) translateY(10%) rotate(55deg);
+  }
+
+  .subTitle {
+    width: 82%;
+    margin: -14em 3em 0;
+  }
+
+  .subTitle-heading {
+    font-size: 1.2em;
+    line-height: 1;
+  }
+
+  .subTitle-description {
+    font-size: 0.8em;
+  }
+
+  .subTitle-link {
+    margin-top: 5px;
+    padding: 10px 30px;
+  }
+
+  .advantages {
+    width: 95vw;
+    margin-top: 18em;
+  }
+
+  .group-img {
+    margin-left: 4em;
+    height: 13em;
+    width: 17em;
+  }
+
+  .points-frame {
+    margin: 3em -1em 0;
+    text-align: center;
+    width: 90%
+  }
+
+  .parar {
+    font-size: 0.9em;
+    width: 100%;
+  }
+
+  .conclusion {
+    text-align: center;
+    height: 30vh;
+    width: 100%;
+    padding-bottom: 1em;
+    margin: 25em 2em 0.5em;
+  }
+
+  .conclusion h2 {
+    margin-top: 0.5em;
+  }
+
+  .conclusion p {
+    font-size: 0.7em;
+  }
+
+  footer {
+    position: relative;
+    margin-top: 10em;
+    font-size: 0.8em;
+    height: 230vh;
+    width: 120vw;
+  }
+
+  .first-section {
+    padding: 80px 0 50px 80px;
+  }
+
+  .fa-facebook, .fa-instagram, .fa-twitter {
+    color: white;
+    font-size: 30px;
+  }
+
+  .social-media {
+    width: 70%;
+    position: absolute;
+    bottom: 8em;
+    left: 9em;
+  }
+
+  .social-media a {
+    padding: 0.9em;
+  }
+
+  .social-media p {
+    font-size: 0.7em;
+    position: absolute;
+    left: -2.5em;
+  }
+
+  .second-section {
+    font-size: 2em;
+    position: absolute;
+    top: 7em;
+    left: 10px;
+  }
+
+  .background a {
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  .third-section {
+    font-size: 2em;
+    position: absolute;
+    top: 15em;
+    left: 10px;
+  }
+
+  .prospect a {
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  .fourth-section {
+    font-size: 1.2em;
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 45em;
+    left: 2.5em;
+  }
+
+  .fourth-section h3 {
+    text-align: center;
+  }
+
+  .fourth-section input {
+    height: 2.5em;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+  }
+
+  .subs-button {
+    margin-left: 0;
+    padding: 10px 0;
+    width: 100%;
+  }
+}
